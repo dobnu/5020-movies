@@ -21,15 +21,15 @@ I think if we get a list of
 - [ ] movie award count
 and combine it with cast or on index we'll have a very interesting set of variables
 ### Code explained
-'''
+```
 def get_out(list,key):
   new_list=[]
   for i in list:
     new_list.append(i[key])
   return new_list
-'''
+```
 Gets value out of a list of dictionaries
-'''
+```
 def clean_it_even(list_char,element):
   for i in list_char:
     element=element.replace(i,"")
@@ -38,7 +38,7 @@ def clean_it_even(list_char,element):
   for i in range(len(element)):
     element[i]=element[i].replace("name:","")
   return element
- '''
+ ```
  Designed for that weird dictionary format in imdb_movies
  takes in list of charecters you want to get rid of and a string
  iterates over the list of charecters and removes them
@@ -48,19 +48,19 @@ def clean_it_even(list_char,element):
  returns list
  and odd does the same but odd instead of even in a list
  
-'''
+```
 list_of_char=['[',']','{','}','"', " "]
-'''
+```
 The bad list of charecters
 
-'''
+```
 sum(get_out(x,"gender"))/(2*len(x)
-'''
+```
 sum a list of genders (genders in a 1 and 2 context) and then divided by length to get avg and then divided by 2 to get ratio
 
-'''
+```
 df_new['cast'] = df_new['cast'].apply(ast.literal_eval)
-'''
+```
 converts row to normal python form instead of string
 
 
