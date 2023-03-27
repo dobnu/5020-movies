@@ -1,8 +1,8 @@
 # Movie
 ### Data
-The IMBD data is [here] (https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+The IMBD data is [here](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
   - I unzipped before importing
-The filmtv data is [here] (https://www.kaggle.com/datasets/stefanoleone992/filmtv-movies-dataset)
+The filmtv data is [here](https://www.kaggle.com/datasets/stefanoleone992/filmtv-movies-dataset)
   - I checked a few titles and I think joining on title would be pretty successful
 ### Variables added
 - Genres :contains list of multiple genres the film is apart of
