@@ -40,13 +40,21 @@ def clean_it_even(list_char,element):
   return element
  ```
  Designed for that weird dictionary format in imdb_movies. 
+ 
  takes in list of charecters you want to get rid of and a string. 
+ 
  iterates over the list of charecters and removes them. 
+ 
  splits element by comma. 
+ 
  deletes ever other element from list created from split. 
+ 
  gets rid of 'name:' in each element of list. 
+ 
  returns list. 
+ 
  and odd does the same but odd instead of even in a list. 
+ 
  
 ```
 list_of_char=['[',']','{','}','"', " "]
