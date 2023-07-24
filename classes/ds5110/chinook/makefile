@@ -1,25 +1,17 @@
 URL=https://github.com/lerocha/chinook-database/raw/master/ChinookDatabase/DataSources/Chinook_Sqlite
 
 # most popular tracks
-q1:
-	data/chinook.db
+q1:data/chinook.db
 	python -B src/exercise1.py
 
 # most expensive invoice
-q2:
-	data/chinook.db
+q2:data/chinook.db
 	python -B src/excersie2.py
 
 # table info
-q3:
-	data/chinook.db
+q3:data/chinook.db
 	python -B src/excersise3.py
 
-
-# Plot histogram
-hist: data/chinook.db
-	mkdir -p img
-	python -B src/main3.py
 
 # Plot histogram
 hist: data/chinook.db
